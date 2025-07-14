@@ -1,0 +1,5 @@
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;}
+.hero-inner{position:relative;z-index:1;}
+.subtitle{font-weight:300;letter-spacing:1px;}
+.title{font-size:4rem;font-weight:800;margin:0.3rem 0;}
+.tagline{font-size:1.3rem;margin-bottom:1.8rem;}

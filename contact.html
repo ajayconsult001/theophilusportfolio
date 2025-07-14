@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Theophilus Praise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/pages/contact.css">
+  <style>@view-transition { navigation: auto; }</style>
+</head>
+<body>
+  <!-- NAV -->
+  <header id="navbar" class="sticky">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo"><span>&lt;</span>Theophilus<span>/&gt;</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle"><i class="fa-solid fa-moon"></i></button>
+      <div id="burger" class="nav-toggle"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+<section class="section alt contact-section">
+  <div class="container">
+    <h2 class="section-title">Contact Theophilus Praise</h2>
+    <p class="contact-intro">
+      Have a project, partnership, or question? Fill out the form below and I’ll get back to you within 24 hours.
+    </p>
+    <form id="contactForm" class="contact-form">
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="name"><i class="fa-solid fa-user"></i> Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+        </div>
+        <div class="form-group">
+          <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message"><i class="fa-solid fa-message"></i> Message</label>
+        <textarea id="message" name="message" placeholder="How can I help you?" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn primary"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+      <div id="form-status" class="form-status" aria-live="polite"></div>
+    </form>
+    <div class="contact-details">
+      <span><i class="fa-solid fa-envelope"></i> theopraise@email.com</span>
+      <span><i class="fa-brands fa-whatsapp"></i> +234 800 000 0000</span>
+    </div>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-flex">
+      <p>&copy; <span id="year"></span> Theophilus Praise. All rights reserved.</p>
+      <div class="social">
+        <a href="https://x.com/Theophilusprais" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      
+        <a href="https://github.com/TheophilusPraise" target="_blank"><i class="fa-brands fa-github"></i></a>
+                 <a href="https://www.upwork.com/services/product/development-it-get-an-amazing-glide-expert-to-build-apps-from-google-sheets-1930535142025032040?ref=project_share" target="_blank"><i class="fa-brands fa-upwork"></i></a>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/nav.js" defer></script>
+  <script src="js/theme.js" defer></script>
+  <script src="js/form.js" defer></script>
+</body>
+</html>

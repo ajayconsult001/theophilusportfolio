@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Theophilus Praise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/pages/projects.css">
+  <style>@view-transition { navigation: auto; }</style>
+</head>
+<body>
+  <!-- NAV -->
+  <header id="navbar" class="sticky">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo"><span>&lt;</span>Theophilus<span>/&gt;</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle"><i class="fa-solid fa-moon"></i></button>
+      <div id="burger" class="nav-toggle"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="grid projects-grid">
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/health1.PNG" alt="HealthTrack app mockup">
+            <span class="project-badge">Featured</span>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <i class="fa-brands fa-google-drive project-icon" title="Glide"></i>
+              <h3>HealthTrack</h3>
+            </div>
+            <p class="project-desc">
+              HIPAA-ready patient tracker built with Glide for a US clinic.
+            </p>
+            <ul class="project-features">
+              <li><i class="fa-solid fa-check"></i> Custom patient dashboard</li>
+              <li><i class="fa-solid fa-check"></i> Secure data & permissions</li>
+              <li><i class="fa-solid fa-check"></i> Real-time updates</li>
+            </ul>
+            <div class="project-meta">
+              <span class="project-platform glide"><i class="fa-brands fa-google-drive"></i> Glide</span>
+              <a href="https://tinyurl.com/mwde9sep" class="btn-sm" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/capture3.png" alt="SwapIt app mockup">
+            <span class="project-badge badge-new">New</span>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <i class="fa-brands fa-bubble project-icon" title="Bubble.io"></i>
+              <h3>SwapIt</h3>
+            </div>
+            <p class="project-desc">
+              P2P marketplace MVP delivered in 3 weeks on Bubble.io.
+            </p>
+            <ul class="project-features">
+              <li><i class="fa-solid fa-check"></i> User accounts & chat</li>
+              <li><i class="fa-solid fa-check"></i> Payment gateway</li>
+              <li><i class="fa-solid fa-check"></i> Responsive UI</li>
+            </ul>
+            <div class="project-meta">
+              <span class="project-platform bubble"><i class="fa-brands fa-bubble"></i> Bubble</span>
+              <a href="#" class="btn-sm" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/Capture.PNG" alt="FieldOps app mockup">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <i class="fa-solid fa-database project-icon" title="AppSheet"></i>
+              <h3>FieldOps</h3>
+            </div>
+            <p class="project-desc">
+              Offline-first asset inspection tool using AppSheet & Google Cloud.
+            </p>
+            <ul class="project-features">
+              <li><i class="fa-solid fa-check"></i> Offline data capture</li>
+              <li><i class="fa-solid fa-check"></i> Google Sheets sync</li>
+              <li><i class="fa-solid fa-check"></i> Automated reports</li>
+            </ul>
+            <div class="project-meta">
+              <span class="project-platform appsheet"><i class="fa-solid fa-database"></i> AppSheet</span>
+              <a href="#" class="btn-sm" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/capture2.png" alt="VoiceHub app mockup">
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <i class="fa-solid fa-phone-volume project-icon" title="Thrunker"></i>
+              <h3>VoiceHub</h3>
+            </div>
+            <p class="project-desc">
+              Multilingual IVR prototype integrated with Thrunker.
+            </p>
+            <ul class="project-features">
+              <li><i class="fa-solid fa-check"></i> Voice & SMS flows</li>
+              <li><i class="fa-solid fa-check"></i> Multi-language support</li>
+              <li><i class="fa-solid fa-check"></i> Fast deployment</li>
+            </ul>
+            <div class="project-meta">
+              <span class="project-platform thrunker"><i class="fa-solid fa-phone-volume"></i> Thrunker</span>
+              <a href="#" class="btn-sm" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Glide Certificate Card -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/Cerificate.PNG" alt="Glide Certificate">
+            <span class="project-badge badge-certificate">Certificate</span>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <i class="fa-solid fa-certificate project-icon" title="Certificate"></i>
+              <h3>Glide Certificate</h3>
+            </div>
+            <p class="project-desc">
+              Official certification for Glide app development, demonstrating advanced skills in building no-code mobile and web apps.
+            </p>
+            <ul class="project-features">
+              <li><i class="fa-solid fa-check"></i> Mastery of Glide platform</li>
+              <li><i class="fa-solid fa-check"></i> Real-world project delivery</li>
+              <li><i class="fa-solid fa-check"></i> Recognized by clients and peers</li>
+            </ul>
+            <div class="project-meta">
+              <span class="project-platform glide"><i class="fa-brands fa-google-drive"></i> Glide</span>
+              <a href="assets/Cerificate.PNG" class="btn-sm" target="_blank">View Certificate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-flex">
+      <p>&copy; <span id="year"></span> Theophilus Praise. All rights reserved.</p>
+      <div class="social">
+        <a href="https://x.com/Theophilusprais" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://github.com/TheophilusPraise" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.upwork.com/services/product/development-it-get-an-amazing-glide-expert-to-build-apps-from-google-sheets-1930535142025032040?ref=project_share" target="_blank"><i class="fa-brands fa-upwork"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/nav.js" defer></script>
+  <script src="js/theme.js" defer></script>
+</body>
+</html>

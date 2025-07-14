@@ -1,0 +1,26 @@
+/* ===== CSS RESET & ROOT VARIABLES ===== */
+:root{
+  --clr-bg:#ffffff;
+  --clr-text:#1f1f1f;
+  --clr-accent:#6e41ff;
+  --clr-accent-2:#00c2ff;
+  --clr-card:#f5f7fb;
+  --clr-dark:#101010;
+  --transition:0.35s ease;
+  font-size:16px;
+}
+*,
+*::before,
+*::after{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--clr-bg);color:var(--clr-text);font-family:'Poppins',sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased;scroll-behavior:smooth;}
+img{max-width:100%;display:block;border-radius:6px;}
+ul{list-style:none;}
+a{text-decoration:none;color:inherit;}
+button{font-family:inherit;}
+
+/* Dark Mode Tokens */
+[data-theme="dark"]{
+  --clr-bg:#101010;
+  --clr-text:#f1f1f1;
+  --clr-card:#1a1a1a;
+}

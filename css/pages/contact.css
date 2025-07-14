@@ -1,0 +1,114 @@
+/* .form-grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-bottom:1rem;}
+input,textarea{width:100%;padding:0.9rem;border:2px solid transparent;border-radius:8px;background:var(--clr-card);color:var(--clr-text);transition:var(--transition);}
+input:focus,textarea:focus{border-color:var(--clr-accent);outline:none;}
+textarea{resize:vertical;} */
+
+.contact-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-intro {
+  text-align: center;
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-size: 1.07rem;
+}
+
+.contact-form {
+  background: var(--clr-card);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+  border: 1px solid #ececec;
+}
+
+.form-grid {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+label {
+  font-weight: 500;
+  color: var(--clr-accent);
+  font-size: 0.98rem;
+  margin-bottom: 0.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.85rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: #f7f7fa;
+  color: var(--clr-text);
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--clr-accent);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 90px;
+}
+
+.btn.primary {
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1.07rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7em;
+}
+
+.form-status {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.97rem;
+  color: var(--clr-accent);
+  min-height: 1.2em;
+}
+
+.contact-details {
+  margin-top: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  color: #888;
+  font-size: 1.01rem;
+}
+
+.contact-details i {
+  color: var(--clr-accent);
+  margin-right: 0.4em;
+}
+
+@media (max-width: 600px) {
+  .contact-section {
+    padding: 0 0.2rem;
+  }
+  .contact-form {
+    padding: 1.1rem 0.5rem 0.9rem 0.5rem;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+}

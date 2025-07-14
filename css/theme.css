@@ -1,0 +1,6 @@
+/* ===== THEME & GRADIENT UTILS ===== */
+.gradient-text{background:linear-gradient(90deg,var(--clr-accent),var(--clr-accent-2));-webkit-background-clip:text;color:transparent;}
+.gradient-bg{position:absolute;inset:0;background:linear-gradient(120deg,var(--clr-accent),var(--clr-accent-2),var(--clr-accent));background-size:200% 200%;animation:move 10s linear infinite;mix-blend-mode:overlay;}
+@keyframes move{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
+
+[data-theme="dark"] .primary{background:var(--clr-accent-2);}
